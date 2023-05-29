@@ -1,0 +1,275 @@
+.pop{
+    width: 80%;
+    height: 550px;
+    
+    float: center;
+}
+.titre{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: brown;
+    text-align: center;
+    margin-top: 6%;
+}
+.navv{
+    background-color: white;
+    font-size: 54%;
+    margin-left: 8%;
+}
+.nav{
+    margin-left: 59px;
+    float: left;
+}
+.nav1{
+    margin-left: 59px;
+    float: left;
+}
+.nav2{
+    margin-left: 59px;
+    float: left;
+}
+.nav3{
+    margin-left: 100px;
+    float: left;
+}
+#ii{
+    color: gray;
+}
+.mots{
+    text-align: center;
+    margin-top: 10px;
+
+}
+.corps{
+    background-color: crimson;
+    margin-top: 20%;
+    height: 550px;
+    width: 80%;
+    float: center;
+    margin-left: 9%;
+}
+.text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: white;
+    margin-top: -2%;
+    text-align: center;
+}
+.im1{
+   
+    width:15%; 
+    height:125px;
+    margin-left: 25%;
+    margin-top: 9%;
+    
+}
+.im2{
+    
+    width:15%; 
+    height:110px;
+    margin-left: 39%;
+    margin-top: -12%;
+    
+    
+}
+.im3{
+    
+    width:15%; 
+    height:125px;
+    margin-left: 52%;
+    margin-top: -10%;
+    
+}
+.i1{
+color: white;
+margin-left: 16%;
+}
+.i2{
+    color: white;
+    margin-left: 16%;
+    }
+.i3{
+        color: white;
+        margin-left: 16%;
+        }
+#cc{
+    width:70%; 
+    height:199px;
+    margin-left: 20%;
+    margin-top: -3%; 
+}
+.corps2{
+    background-color: gainsboro;
+    height: 550px;
+    margin-top: -1%;
+    width: 80%;
+    float: center;
+    margin-left: 9%;
+}
+.text2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 36px;
+    color: brown;
+    margin-top: -33%;
+    text-align: center;
+}
+.container{
+   width: 23%;
+   height: 67px;
+   border-radius: 80px;
+   border-color: coral;
+   background-color: white;
+   color: pink;
+   margin-left: 1%;
+   margin-top: 3%;
+
+}
+.container2{
+    width: 23%;
+    height: 67px;
+    border-radius: 80px;
+    border-color: purple;
+    background-color: white;
+    color: purple;
+    margin-left: 1%;
+    margin-top: 3%;
+ 
+ }
+
+ /*gestion de la responsivite*/
+
+/*smartphone*/
+@media screen and (min-width:320px) and (max-width:768px){
+.pop{
+    width: 80%;
+    height: 120px;
+}
+
+.nav3{
+    margin-left: 100px;
+    float: left;
+}
+.corps{
+    margin-top: 190%;
+}
+.text{
+    
+    font-size: 15px;
+}
+.im1{
+   
+    width:90%; 
+    height:3px;
+    margin-left: -3%;
+    
+}
+.i1{
+    color: white;
+    margin-left: 16%;
+    font-size: 99%;
+    margin-top: -150%;
+}
+.i2{
+    color: white;
+    margin-left: 16%;
+    font-size: 99%;
+    margin-top: -150%;
+}
+.i3{
+    color: white;
+    margin-left: 16%;
+    font-size: 99%;
+    margin-top: -150%;
+}
+.im2{
+    
+    width:90%; 
+    height:3px;
+    margin-left: -3%;
+    margin-top: 100%;
+    
+    
+}
+.i1{
+    color: white;
+    margin-left: 16%;
+    font-size: 99%;
+    margin-top: 100%;
+}
+.im3{
+    
+    width:90%; 
+    height:3px;
+    margin-left: -3%;
+    margin-top: 100%;
+    
+    
+}
+.i1{
+    color: white;
+    margin-left: 16%;
+    font-size: 99%;
+    margin-top: -2%;
+}
+.i2{
+    color: white;
+    margin-left: 16%;
+    font-size: 99%;
+    margin-top: -2%;
+}
+.i3{
+    color: white;
+    margin-left: 16%;
+    font-size: 99%;
+    margin-top: -2%;
+}
+
+.corps{
+    height: 810px;
+
+}
+
+.corps2{
+    height: 450px;
+}
+
+.nav{
+    font-size: -69%;
+    margin-left: 25px;
+    float: left;
+}
+.nav1{
+    font-size: -69%;
+    margin-left: 25px;
+    float: left;
+}
+.nav2{
+    font-size: -69%;
+    margin-left: 25px;
+    float: left;
+}
+.nav3{
+    font-size: -69%;
+    margin-left: 25px;
+    float: left;
+}
+.text2{
+    font-size: 16px;
+    margin-top: -145%;
+}
+
+.container{
+    width: 73%;
+    height: 57px;
+    font-size: 10px;
+    margin-top: 10%;
+ 
+ }
+ .container2{
+     width: 73%;
+     height: 57px;
+     font-size: 10px;
+     margin-top: 10%;
+  
+  }
+
+}
